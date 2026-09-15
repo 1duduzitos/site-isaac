@@ -13,7 +13,7 @@ header {
     background-color: #000000;
     text-align: center;
     padding: 20px;
-    border-bottom: 1px solid #f2eaea;
+    border-bottom: 1px solid #ffffff;
 }
 
 header h2 {
@@ -21,7 +21,7 @@ header h2 {
 }
 
 header p {
-    color: #ff0000;
+    color: #ff6f00;
     font-size: 12px;
 }
 
@@ -30,13 +30,13 @@ nav {
 }
 
 nav a {
-    color: #ccc;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 15px;
 }
 
 nav a:hover {
-    color: #c52b2b;
+    color: #ff6f00;
 }
 
 .inicio {
@@ -49,17 +49,20 @@ nav a:hover {
 }
 
 .inicio div {
-    width: 400px;
+    width: 800px;
 }
 
 .inicio img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
+    width: 600px;
+    height: 600px;
+    object-fit: fill;
+    position: relative;
+    left: 16px;
+    top: -120px;
 }
 
 .vermelho {
-    color: #830202;
+    color: #ff6f00;
     font-size: 12px;
     letter-spacing: 2px;
 }
@@ -70,7 +73,7 @@ h1 {
 }
 
 h1 span {
-    color: #830202;
+    color: #ff6f00;
 }
 
 .inicio div > p:not(.vermelho) {
@@ -89,7 +92,7 @@ h1 span {
 }
 
 .botao:hover {
-    background-color: #830202;
+    background-color: #ff6f00;
 }
 
 .sobre {
@@ -107,8 +110,8 @@ h1 span {
 }
 
 .sobre img {
-    width: 280px;
-    height: 170px;
+    width: 500px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -148,11 +151,11 @@ h1 span {
 }
 
 .itens article:hover {
-    border-color: #a82222;
+    border-color: #ff6f00;
 }
 
 .numero {
-    color: #c52b2b;
+    color: #ffffff;
 }
 
 .itens h2 {
@@ -167,7 +170,7 @@ h1 span {
 
 footer {
     text-align: center;
-    background-color: #090909;
+    background-color: #000000;
     color: #000000;
     padding: 25px;
     font-size: 12px;
