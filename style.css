@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f7f7;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+header {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #f2eaea;
+}
+
+header h2 {
+    font-size: 17px;
+}
+
+header p {
+    color: #ff0000;
+    font-size: 12px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #c52b2b;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px;
+    background-color: #000000;
+}
+
+.inicio div {
+    width: 400px;
+}
+
+.inicio img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.vermelho {
+    color: #830202;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+h1 span {
+    color: #830202;
+}
+
+.inicio div > p:not(.vermelho) {
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 22px 70px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.botao:hover {
+    background-color: #d83232;
+}
+
+.sobre {
+    background-color: #e5e0da;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.sobre div {
+    width: 300px;
+}
+
+.sobre img {
+    width: 280px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.sobre h2 {
+    margin-bottom: 12px;
+}
+
+.sobre p {
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 60px 20px 40px;
+}
+
+.titulo > p:last-child {
+    color: #999;
+}
+
+.mistérios {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+
+.mistérios article {
+    background-color: #171717;
+    border: 1px solid #292929;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.mistérios article:hover {
+    border-color: #a82222;
+}
+
+.numero {
+    color: #c52b2b;
+}
+
+.mistérios h2 {
+    margin: 8px 0;
+}
+
+.mistérios article p {
+    color: #999;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #090909;
+    color: #666;
+    padding: 25px;
+    font-size: 12px;
+}
