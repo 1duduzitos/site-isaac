@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f8f7f7;
+    background-color: #000000;
     color: white;
     font-family: Georgia, serif;
 }
@@ -89,11 +89,11 @@ h1 span {
 }
 
 .botao:hover {
-    background-color: #d83232;
+    background-color: #830202;
 }
 
 .sobre {
-    background-color: #e5e0da;
+    background-color: #000000;
     color: #222;
     display: flex;
     justify-content: center;
@@ -117,7 +117,7 @@ h1 span {
 }
 
 .sobre p {
-    color: #555;
+    color: #ffffff;
     line-height: 1.5;
     margin-bottom: 8px;
 }
@@ -128,10 +128,10 @@ h1 span {
 }
 
 .titulo > p:last-child {
-    color: #999;
+    color: #000000;
 }
 
-.mistérios {
+.itens {
     width: 80%;
     margin: auto;
     display: grid;
@@ -140,14 +140,14 @@ h1 span {
     padding-bottom: 60px;
 }
 
-.mistérios article {
-    background-color: #171717;
-    border: 1px solid #292929;
+.itens article {
+    background-color: #000000;
+    border: 1px solid #ffffff;
     padding: 25px;
-    border-radius: 5px;
+    border-radius: 65px;
 }
 
-.mistérios article:hover {
+.itens article:hover {
     border-color: #a82222;
 }
 
@@ -155,12 +155,12 @@ h1 span {
     color: #c52b2b;
 }
 
-.mistérios h2 {
+.itens h2 {
     margin: 8px 0;
 }
 
-.mistérios article p {
-    color: #999;
+.itens article p {
+    color: #ffffff;
     line-height: 1.5;
     margin-bottom: 8px;
 }
@@ -168,7 +168,7 @@ h1 span {
 footer {
     text-align: center;
     background-color: #090909;
-    color: #666;
+    color: #000000;
     padding: 25px;
     font-size: 12px;
 }
